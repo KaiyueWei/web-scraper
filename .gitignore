@@ -1,0 +1,6 @@
+.vscode/
+.dist/
+
+rssagg
+
+.env
