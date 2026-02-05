@@ -1,6 +1,14 @@
+## IDE settings
 .vscode/
+
+## Build output
 .dist/
 
+## compiled binary
 rssagg
 
+## environment
 .env
+
+
+
