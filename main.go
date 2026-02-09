@@ -62,6 +62,7 @@ func main() {
 		v1.GET("/users", gin.WrapF(apiCfg.middlewareAuth(apiCfg.handlerGetUser)))
 		v1.POST("/users", gin.WrapF(apiCfg.handlerCreateUser))
 		v1.POST("/feeds", gin.WrapF(apiCfg.middlewareAuth(apiCfg.handlerCreateFeed)))
+		v1.GET("/feeds", gin.WrapF(apiCfg.handlerGetFeeds))
 	}
 
 	// Create and configure the server
